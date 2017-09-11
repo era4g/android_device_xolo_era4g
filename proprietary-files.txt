@@ -1,0 +1,107 @@
+# Un-categorized
+bin/engpc
+etc/marlinba/connectivity_calibration.ini
+etc/marlinba/connectivity_configure.ini
+etc/connectivity_calibration.ini
+etc/connectivity_configure.ini
+etc/volte-conf.xml
+etc/thermalSensorsConfig.xml
+etc/spn-conf.xml
+etc/sprd_monitor-user.conf
+etc/sprd_monitor-userdebug.conf
+etc/slog.conf
+etc/slog.conf.user
+etc/slog_modem.conf
+etc/supl.xml
+etc/fs_config_files
+bin/recoveryfreq.sh
+bin/slog
+bin/slogctl
+bin/slogmodem
+bin/sprd_res_monitor
+bin/lava_display
+bin/bih_config.sh
+bin/cp_diskserver
+bin/calibration_init
+bin/cmd_services
+bin/download
+bin/inputfreq.sh
+bin/iosnoop.sh
+bin/refnotify
+
+# GPS
+lib/liblcsagent.so
+lib/hw/gps.default.so
+lib/libsupl.so
+
+# Graphics rendering
+lib/libboost.so
+lib/egl/libGLES_mali.so
+
+# Audio
+etc/codec_pga.xml
+lib/libFMHalSource.so
+
+
+# RIL
+bin/modemd
+bin/phoneserver
+bin/modem_control
+bin/ext_data.sh
+bin/ext_kill.sh
+bin/flush_slog_modem
+bin/modemDriver_vpad_main
+
+# bluetooth
+bin/wcnd
+bin/wcnd_cli
+
+# Camera
+lib/libmorpho_easy_hdr.so
+lib/libaf.so
+lib/liblsc.so
+lib/libae.so
+lib/libawb.so
+lib/libev.so
+lib/libts_face_beautify_hal.so
+
+# ION
+lib/libmemoryheapion.so
+lib/libion.so
+
+# Codecs
+lib/libomx_mp3dec_sprd.so
+lib/libomx_avcdec_hw_sprd.so
+lib/libomx_avcenc_hw_sprd.so
+lib/libomx_vpxdec_hw_sprd.so
+lib/libomx_m4vh263dec_hw_sprd.so
+lib/libomx_m4vh263enc_hw_sprd.so
+lib/libstagefright_sprd_mpeg4dec.so
+lib/libstagefright_sprd_h264dec.so
+lib/libstagefright_sprd_mpeg4dec.so
+lib/libstagefright_sprd_h264enc.so
+lib/libstagefright_sprd_mpeg4enc.so
+
+
+# HAL
+lib/hw/camera.sc8830.so
+lib/hw/gralloc.sc8830.so
+lib/hw/hwcomposer.sc8830.so
+lib/hw/sensors.sc8830.so
+lib/hw/sprd_gsp.sc8830.so
+lib/hw/camera.sc8830.so
+lib/hw/power.sc8830.so
+lib/hw/gps.default.so
+lib/hw/lights.sc8830.so
+
+# drm
+lib/libdrmdecrypt.so
+lib/drm/libdrmomaplugin.so
+
+# vendor
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/mediadrm/libwvdrmengine.so
+vendor/media/LMspeed_508.emd
+vendor/media/PFFprec_600.emd
