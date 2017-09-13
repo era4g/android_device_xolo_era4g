@@ -89,17 +89,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/gtexslte/proprietary/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 $(LOCAL_PATH)/bluetooth/com.broadcom.bt.jar:system/framework/com.broadcom.bt.jar
 
-# RILD
-PRODUCT_COPY_FILES += \
-	device/xolo/era4g/samsung/ril/rild:system/bin/rild \
-device/xolo/era4g/samsung/ril/libril.so:system/lib/libril.so \
-device/xolo/era4g/samsung/ril/libreference-ril_sp.so:system/lib/libreference-ril_sp.so \
-device/xolo/era4g/samsung/ril/libatchannel.so:system/lib/libatchannel.so \
-device/xolo/era4g/samsung/ril/libatparser.so:system/lib/libatparser.so \
-device/xolo/era4g/samsung/ril/libsecril-client.so:system/lib/secril-client.so \
-device/xolo/era4g/samsung/ril/libsecnativefeature.so:system/lib/libsecnativefeature.so 
-
- 
 # prebuilt idc
 PRODUCT_COPY_FILES += \
 $(LOCAL_PATH)/idc/focaltech_ts.idc:system/usr/idc/focaltech_ts.idc \
@@ -110,7 +99,6 @@ PRODUCT_PACKAGES += \
 	charger \
 	charger_res_images
 
-# Codecs
 # Codecs
 PRODUCT_PACKAGES += \
 	libstagefrighthw \
@@ -151,12 +139,12 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.ril_class=SamsungGtexslteRIL \
+    ro.telephony.ril_class=SC7731CRIL \
 ro.ril.hsxpa=1 \
 ro.ril.gprsclass=10 \
 ro.telephony.ril.config=setPrefNwTypeOnUnsolConnected \
 ro.telephony.ril.socket_name=rild,rild1,rild2 \
-ro.ril.telephony.mqanelements=6
+ro.ril.telephony.mqanelements=6 
 
 # Graphics
 PRODUCT_PACKAGES += \
